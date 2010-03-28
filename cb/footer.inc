@@ -1,0 +1,8 @@
+document.write('<div id=\"footer\">                                                 															')
+document.write('<div id=\"right_footer\">                                           															')
+document.write('	Layout by <a href=\"http://www.realitysoftware.ca\" title=\"Website Design\">Reality Software</a>. Hosted by <a href=\"http://www.webfaction.com/?affiliate=bracken\">WebFaction</a>. ')
+document.write('</div>                                                              															')
+document.write('<div id=\"left_footer\">                                            															')
+document.write('	Last Modified 2008 Sep 1 by Cameron Bracken                    																')
+document.write('</div>                                                              															')
+document.write('</div>                                                              															')

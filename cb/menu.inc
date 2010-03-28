@@ -1,0 +1,12 @@
+document.write('<div id=\"header\">                                                 ');
+document.write('	<div id=\"logo\"><a href=\"index.html\">cameron.bracken.bz</a>  ');
+document.write('    </div>                                                          ');
+document.write('    <div id=\"menu\">                                               ');
+document.write('		<ul>                                                        ');
+document.write('		    <li><a href=\"index.html\">Home</a></li>                ');
+document.write('		    <li><a href=\"projects.html\">Projects</a></li>         ');
+document.write('		    <li><a href=\"links.html\">Links</a></li>               ');
+document.write('		    <li><a href=\"calender.html\">Calender</a></li>               ');
+document.write('		</ul>                                                       ');
+document.write('    </div>                                                          ');
+document.write('</div>                                                              ');

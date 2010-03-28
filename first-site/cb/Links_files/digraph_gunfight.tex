@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{pst-node}
+\pagestyle{empty}
+
+\begin{document}
+
+
+\newlength{\MyLength}
+\settowidth{\MyLength}{$E_{01}$}
+\newcommand{\MyBox}[1]{\makebox[\MyLength]{#1}}
+\begin{psmatrix}[colsep=2,rowsep=1,mnode=circle]
+                        &[name=N]\MyBox{N}& [name=G]\MyBox{G}\\[0pt]
+  [name=UB]\MyBox{UB} &[name=GUB]\MyBox{GUB}    & [name=GB]\MyBox{GB} \\[0pt]
+  [name=U]\MyBox{U}& [name=B]\MyBox{B}
+  % Node connections
+  \psset{nodesep=5pt,arrows=->}
+  \ncline{GUB}{UB}%^{$\lambda_A$}
+  \ncline{GUB}{GB}%^{$\lambda_B$}
+  \ncline{UB}{N}%^{$\lambda_A$}
+  \ncline{UB}{B}
+  \ncline{GB}{B}
+  \ncline{GB}{N}
+  \ncline{GB}{G}
+  \ncline{UB}{U}
+  \ncline{GUB}{B}
+  \ncangles[armA=0.8,armB=0,angleA=160,angleB=210,linearc=0.33]{UB}{UB}
+  \ncangles[armA=0.8,armB=0,angleA=-70,angleB=-120,linearc=0.33]{B}{B}
+  \ncangles[armA=0.8,armB=0,angleA=70,angleB=120,linearc=0.33]{N}{N}
+  \ncangles[armA=0.8,armB=0,angleA=-70,angleB=-120,linearc=0.33]{GB}{GB}
+  \ncangles[armA=0.8,armB=0,angleA=-70,angleB=-120,linearc=0.33]{U}{U}
+  \ncangles[armA=0.8,armB=0,angleA=70,angleB=120,linearc=0.33]{G}{G}
+  \ncangles[armA=0.8,armB=0,angleA=70,angleB=120,linearc=0.33]{GUB}{GUB}
+
+
+
+\end{psmatrix}
+
+\end{document}

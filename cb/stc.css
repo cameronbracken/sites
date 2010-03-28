@@ -1,0 +1,166 @@
+body {
+    margin:0 auto;
+    width:780px;
+    padding-top: 10px;
+	font-size:0.8em;
+	line-height:20px;
+	font-family: "Trebuchet MS", Arial;
+	border:1px solid #666;
+	background: #42778e;
+	/* or #779aaa */
+	/* or #445533 */
+	/* or #E3F5CE */
+}
+
+.lunchbox {
+	display:none;
+	margin: 0 20px 20px 20px;
+} 
+
+a {
+	color:#42778e;
+	text-decoration:none;
+	border-bottom:1px dotted #42778e;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+	border-bottom:1px solid #333;
+}
+
+#header {
+	background:#779aaa;
+}
+
+#logo {
+	padding:30px 0 0 40px;
+	height:75px;
+	color:#445533;
+}
+
+#logo a{
+	color:#e8e8e8;
+	text-decoration:none;
+	border-bottom:0px;
+	font-weight:bold;
+	font-size:20px;
+	text-transform:uppercase;
+}
+
+#menu {
+	/*background:#01b0f0;*/
+	background:#99cc99;
+	height:30px;
+}
+
+#menu ul {
+	margin:0;
+	padding:0;
+}
+
+#menu ul li{
+	display:inline-block;
+	float:left;
+	width:104px;
+	list-style:none;
+	text-align:center;
+}
+
+#menu a {
+	border-bottom:0px;
+	display:block;
+	float:left;
+	width:104px;
+	color:#445533;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	padding-top:4px;
+}
+
+#menu a:hover{
+	padding-top:4px;
+	height:22px;
+	border-bottom: 4px solid #445533;
+}
+
+
+#text {
+	margin: 0 20px 20px 20px;
+}
+
+#text p {
+	padding:10px;
+	border:1px solid #d7d7d7;
+	background-color: #eee;
+}
+
+#text li {
+	list-style:none;
+	padding-left:20px;
+	background:url(images/li.gif) no-repeat 0px 7px;
+}
+
+#sidebar {
+	float:right;
+	width:235px;
+	padding: 0px 20px 20px 0px;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+	font-size:1.8em;
+	color:#000;
+}
+
+
+#main {
+	float:left;
+	width:100%;
+	background: #fff;
+	/*background:url(images/sidebar_bckg.gif) repeat-y top right #fff;*/
+	padding:20px 0 0 0;
+}
+
+#footer {
+	/*background:#424e4f;*/
+	background:#779aaa;
+	/*background:#779aaa;*/
+	height:50px;
+	clear:both;
+}
+
+#left_footer {
+	float:left;
+	padding:15px 0 0 30px;
+	color:#fff;
+	font-size:9px;
+}
+
+#left_footer a {
+	color:#fff;
+}
+
+#left_footer a:hover {
+	text-decoration:none;
+}
+
+#right_footer {
+	float:right;
+	padding:15px 30px 0 0;
+	color:#fff;
+	font-size:9px;
+	text-align:right;
+}
+
+#right_footer a {
+	color:#fff;
+}
+
+#right_footer a:hover {
+	text-decoration:none;
+}
